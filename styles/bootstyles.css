@@ -1,0 +1,84 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkslateblue;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    color: white;
+    text-align: center;
+  }
+
+.mainbody {
+    top: 114px;
+    bottom: 64px;
+    right: 114px;
+    left: 114px;
+    padding-right: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: medium;
+    text-align: center;
+  }
+
+.footer {
+    bottom: 5px;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    font-size: 15px; 
+    color: white; 
+    text-align: center; 
+    position: fixed;
+  }
+
+.title {
+    font-style:italic ;
+}
+
+.homeBG { background-image: url('../images/skyplane.jpg');
+    background-size: 1600px;}
+
+.center-graphic {
+    margin:auto; 
+    max-width: 1000px;
+}
+
+.moreTableau {
+    font-size: large;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgba(250, 220, 245, 0.979);
+} 
+
+a {
+    color: yellow;
+    text-decoration:bold;
+    text-decoration: underline;
+}
+
+.textbackground {
+    background-color: darkslateblue;
+}
